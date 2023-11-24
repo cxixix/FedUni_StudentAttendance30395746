@@ -1,0 +1,38 @@
+<!-- res/layout/list_item_user.xml -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name" />
+
+        <TextView
+            android:id="@+id/textViewUserId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User ID" />
+
+        <TextView
+            android:id="@+id/textViewCourseId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Course ID" />
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"/>
+</RelativeLayout>
